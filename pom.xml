@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.stadler</groupId>
-    <artifactId>hibernate-tools-maven-plugin-test</artifactId>
+    <artifactId>hibernate-tools-maven-plugin-sample</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
@@ -33,6 +33,7 @@
                 </executions>
                 <configuration>
                     <revengFile>${project.basedir}/src/main/hibernate/hibernate.reveng.xml</revengFile>
+                    <templatePath>${project.basedir}/src/main/resources/templates/</templatePath>
                     <!-- Defaults:-->
                     <!--<packageName></packageName>-->
                     <!--<outputDirectory>${project.build.directory}/generated-sources/</outputDirectory>-->
